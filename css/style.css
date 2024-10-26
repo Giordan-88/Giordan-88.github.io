@@ -1,29 +1,46 @@
 body {
   background-color: #283655;
   color: #d0e1f9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .bg-body-tertiary {
     --bs-bg-opacity: 1;
     background-color:#4d648d9e !important;
 }
-.text-center p {
-    padding: 15px 200px;
-}
 
 .barra_top {
-  padding: 20px;
-  padding-top: 110px;
+  padding-top: 12%;
 }
-
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 
 .text-center p {
+  padding: 5%;
   text-align: center;
-  margin: 40px 20px 40px 20px;
+  margin: 0% 2%;
+  
 }
+.card {
+  background-color: #d0e1f9;
+}
+
+hr.rounded {
+  border-top: 8px solid #fff;
+  border-radius: 5px;
+margin: 5% 8%
+}
+  
 .educacion {
+  
     display: flex;
     justify-content: space-around;
     padding-top: 30px;
+    gap: 5px;
+    margin: 0% 5px;
 }
 .iconos {
     display: flex;
@@ -31,15 +48,17 @@ body {
     gap: 20%;
     padding: 30px;
 }
-.portfolio {
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-}
 
 .experiencia {
+  
   width: 100%;
+  padding: 2%;
 }
+.list-group a {
+  background-color: #d0e1f9 !important;
+  margin: 1px;
+}
+
 .container-fluid {
   display: flex !important;
   align-items: center !important;
@@ -47,6 +66,12 @@ body {
 }
 .portafolio {
   display: flex;
-  width: %;
+  flex-direction: column;
+  padding: 2%;
+  gap: 10px;
+  margin: 2% ;
   
+}
+footer { 
+  m
 }

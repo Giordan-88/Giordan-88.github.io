@@ -16,10 +16,11 @@
     <Div class="barra_top">
         <nav class="navbar fixed-top bg-body-tertiary">
             <div class="container-fluid">
-                <a class="nav-link active" aria-current="page" href="#">Sobre Mi</a>
-                <a class="nav-link active" aria-current="page" href="#">Experiencia</a>
-                <a class="nav-link active" aria-current="page" href="#">Portafolio</a>
-                <a class="nav-link active" aria-current="page" href="#">Contacto</a>
+                <a class="nav-link active" aria-current="page" href="#SobreMi">Sobre Mi</a>
+                <a class="nav-link active" aria-current="page" href="#Educación">Educación</a>
+                <a class="nav-link active" aria-current="page" href="#Experiencia">Experiencia</a>
+                <a class="nav-link active" aria-current="page" href="#Portafolio">Portafolio</a>
+                <a class="nav-link active" aria-current="page" href="#Contacto">Contacto</a>
             </div>
         </nav>
     </Div>
@@ -28,13 +29,13 @@
     <div class="text-center">
 
         <center>
-            <h1>Giordan Arribada Camus</h1>
+            <h1 id="SobreMi" style="padding-bottom: 20px;">Giordan Arribada Camus</h1>
         </center>
 
         <img src="./img/Foto Curriculum.jpg" class="img-thumbnail" alt="..." width="300px"
             style="padding: 15px; background-color:#1E1F26;">
 
-        <h2 style="padding:30px ;">Sobre Mi</h2>
+        <h2 style="padding-top:30px ;">Sobre Mi</h2>
         <p>Soy una persona amigable, siempre dispuesta a escuchar y ayudar a quienes me rodean. Como compañero, valoro
             el trabajo en equipo y trato de aportar un ambiente positivo y colaborativo. Mi curiosidad me lleva a
             explorar nuevas ideas y aprender constantemente, disfrutando del proceso de descubrimiento. Estoy dedicado a
@@ -44,40 +45,54 @@
 
     </div>
     <div class="iconos">
-        <i class="fa-brands fa-linkedin fa-4x"></i>
-        <i class="fa-brands fa-github fa-4x"></i>
-        <i class="fa-brands fa-discord fa-4x"></i>
+
+        <a href="https://www.linkedin.com/in/giordan-arribada-camus-109526a8/" target="_blank"><i
+                class="fa-brands fa-linkedin fa-4x"></i></a>
+        <a href="https://github.com/Giordan-88" target="_blank"><i class="fa-brands fa-github fa-4x"></i></a>
+
+        <a href="https://discord.gg/WFT2cugQ"><i class="fa-brands fa-discord fa-4x"></i></a>
+
     </div>
+
+    <hr class="rounded">
     <!-- EDUCACION -->
     <center>
-        <h2 style="padding-top: 30px;">Educación</h2>
+        <h2 id="Educación" style="padding: 30px;">Educación</h2>
     </center>
     <div class="educacion">
 
         <div class="card" style="width: 18rem;">
-            <img src="./img/sek-logo.webp" class="card-img-top" alt="...">
+            <img src="./img/sek-logo.webp" class="card-img-top" alt="logo colegio sek pacifico" style="padding: 15px;">
             <div class="card-body">
-                <p class="card-text">Enseñanza Basica - Enseñanza Media
-                </p>
+                <center>
+                    <p class="card-text"><strong>Enseñanza Basica</strong> </p>
+                </center>
+                <br>
+                <center>
+                    <p><strong>Enseñanza Media</strong></p>
+                </center>
             </div>
         </div>
         <div class="card" style="width: 18rem;">
-            <img src="./img/Logo-Universidad-Andres-Bello.jpg" class="card-img-top" alt="...">
+            <img src="./img/Logo-Universidad-Andres-Bello.jpg" class="card-img-top" alt="logo universidad andres bello"
+                style="padding: 15px;">
             <div class="card-body">
-                <p class="card-text">Pedagogía en Educación Física</p>
+                <p class="card-text"><strong>Pedagogía en Educación Física</strong></p>
+                <p>Licenciatura en educacion Basica y Media</p>
+                <p>2016-2019</p>
             </div>
         </div>
 
     </div>
-
+    <hr class="rounded">
 
     <!-- EXPERIENCIA -->
     <Div class="experiencia">
 
-        <h2>Experiencia</h2>
+        <h2 id="Experiencia" style="padding-bottom: 20px;">Experiencia</h2>
         <div class="list-group">
 
-            <a href="#" class="list-group-item list-group-item-action">
+            <a class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Ejecutivo de ventas</h5>
                     <small class="text-body-secondary">Abr. 2023 - Jun. 2023</small>
@@ -86,7 +101,7 @@
                 <small class="text-body-secondary">Ejecutivo de ventas telefónicas de planes para el hogar, realización
                     de seguimiento de la instalación y correcta adquisición del cliente post venta</small>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
+            <a class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Asesor de ventas y marketing</h5>
                     <small class="text-body-secondary">Feb. 2023 - Mar. 2023</small>
@@ -95,7 +110,7 @@
                 <small class="text-body-secondary">Vendedor físico en tienda, reposición de productos y orden en
                     bodega.</small>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
+            <a class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Administrativo</h5>
                     <small class="text-body-secondary">Sept. 2022 - Dic. 2022</small>
@@ -106,7 +121,7 @@
                     llevaba un registro en donde se esperaba hasta el día de la adjudicación, ocasionalmente realizaba
                     entrega de paquetes de productos en destinos cercanos..</small>
             </a>
-            <a href="#" class="list-group-item list-group-item-action">
+            <a class="list-group-item list-group-item-action">
                 <div class="d-flex w-100 justify-content-between">
                     <h5 class="mb-1">Team Player (Vendedor)</h5>
                     <small class="text-body-secondary">Mar. 2022 - Sept. 2022</small>
@@ -131,79 +146,88 @@
         </div>
 
     </Div>
+    <hr class="rounded">
     <!-- PORTAFOLIO -->
     <div class="portafolio">
-        <div class="grid mt-1 mx-3">
-            <div class="row">
 
-                <div>
-                    <div class="card h-100">
-                        <img src="./img/Curriculum_1.png" class="card-img-top" alt="foto referencia curriculum de htlm">
-                        <div class="card-body">
-                            <h5 class="card-title">CV Primera Clase</h5>
-                            <p class="card-text">Desarrollo de CV con solo HTML</p>
+        <center>
+            <h2 style="padding-bottom:20px ;" id="Portafolio">Portafolio</h2>
+        </center>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
 
 
-                        </div>
+            <div>
+                <div class="card h-100">
+                    <img src="./img/Curriculum_1.png" class="card-img-top" alt="foto referencia curriculum de htlm">
+                    <div class="card-body">
+                        <h5 class="card-title">CV Primera Clase</h5>
+                        <p class="card-text">Desarrollo de CV con solo HTML</p>
 
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <div class="grid mt-1 mx-3">
-            <div class="row">
-
-                <div>
-                    <div class="card h-100">
-                        <img src="./img/Landing_page _2.png" class="card-img-top"
-                            alt="Primera pagina creada con css tienda de mascotas">
-                        <div class="card-body">
-                            <h5 class="card-title">Creacion landing page con CSS</h5>
-                            <p class="card-text">Introdución a CSS</p>
-
-                        </div>
 
                     </div>
+
                 </div>
             </div>
-        </div>
-        <div class="grid mt-1 mx-3">
-            <div class="row">
 
-                <div>
-                    <div class="card h-100">
-                        <img src="./img/Iguana_2.png" class="card-img-top"
-                            alt="creacion de pagina con flex basado en iguanas">
-                        <div class="card-body">
-                            <h5 class="card-title">Creacion pagina con flex sobre Iguanas</h5>
-                            <p class="card-text">Alineando contenido con Flex</p>
 
-                        </div>
-                        
+
+
+
+
+            <div>
+                <div class="card h-100">
+                    <img src="./img/Landing_page _2.png" class="card-img-top"
+                        alt="Primera pagina creada con css tienda de mascotas">
+                    <div class="card-body">
+                        <h5 class="card-title">Creacion landing page con CSS</h5>
+                        <p class="card-text">Introdución a CSS</p>
+
                     </div>
+
                 </div>
             </div>
-        </div>
-        <div class="grid mt-1 mx-3">
-            <div class="row">
 
-                <div>
-                    <div class="card h-100">
-                        <img src="./img/Cupoon_3.png" class="card-img-top"
-                            alt="Plumón Coral Fleece estampado en modelo y tamaño a elección">
-                        <div class="card-body">
-                            <h5 class="card-title">Creacion de Cuppon con bootstrap</h5>
-                            <p class="card-text">Bootstrap</p>
 
-                            
-                        </div>
-                        
+
+
+
+            <div>
+                <div class="card h-100">
+                    <img src="./img/Iguana_2.png" class="card-img-top"
+                        alt="creacion de pagina con flex basado en iguanas">
+                    <div class="card-body">
+                        <h5 class="card-title">Creacion pagina con flex sobre Iguanas</h5>
+                        <p class="card-text">Alineando contenido con Flex</p>
+
                     </div>
-                </div>
 
+                </div>
             </div>
+
+
+
+
+
+            <div>
+                <div class="card h-100">
+                    <img src="./img/Cupoon_3.png" class="card-img-top"
+                        alt="Plumón Coral Fleece estampado en modelo y tamaño a elección">
+                    <div class="card-body">
+                        <h5 class="card-title">Creacion de Cuppon con bootstrap</h5>
+                        <p class="card-text">Bootstrap</p>
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
         </div>
+    </div>
+    <!-- FOOTER -->
+    <div style="padding: 20px 0px 10px 0px; background-color: #4D648D;">
+        <p class="text-center"><strong>Todos los derechos reservados |  Giordan Arribada C. | Giordan88@hotmail.com | +569 89878521 </strong></p>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
